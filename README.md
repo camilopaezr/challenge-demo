@@ -1,52 +1,21 @@
-# Integrate React with Node.js Express & MySQL (run on same Server/Port)
+Use the following commands for running
 
-For more detail, please visit:
-> [How to integrate React with Node.js Express on same Server/Port](https://bezkoder.com/integrate-react-express-same-server-port/)
+npm i
+npm start
 
-> [React (Components) CRUD example to consume Web API](https://bezkoder.com/react-crud-web-api/)
+node:12.*
 
-> [Build Node.js Rest APIs with Express, Sequelize & MySQL](https://bezkoder.com/node-js-express-sequelize-mysql/)
+Look for this in the entire project, there will be two files to modify, change the subdomain (dev in this case) for yours.
+http://dev.devopschallenge.link/api
 
-More Practice:
-> [React (Hooks) CRUD example to consume Web API](https://bezkoder.com/react-hooks-crud-axios-api/)
+needed variables for db connection are:
 
-> [React Material UI examples with a CRUD Application](https://bezkoder.com/react-material-ui-examples-crud/)
+DB_HOST
+DB_USER
+DB_PASS
+DB_NAME
 
-> [Server side Pagination in Node.js with Sequelize and MySQL](https://bezkoder.com/node-js-sequelize-pagination-mysql/)
+The database engine used is MySQL tested against version 5.7.
+port is set as default (3306).
 
-> [Deploying/Hosting Node.js app on Heroku with MySQL database](https://bezkoder.com/deploy-node-js-app-heroku-cleardb-mysql/)
-
-Associations:
-> [Sequelize Associations: One-to-Many Relationship example](https://bezkoder.com/sequelize-associate-one-to-many/)
-
-> [Sequelize Associations: Many-to-Many Relationship example](https://bezkoder.com/sequelize-associate-many-to-many/)
-
-Fullstack with Node.js Express:
-> [React.js + Node.js Express + MySQL](https://bezkoder.com/react-node-express-mysql/)
-
-> [React.js + Node.js Express + PostgreSQL](https://bezkoder.com/react-node-express-postgresql/)
-
-> [React.js + Node.js Express + MongoDB](https://bezkoder.com/react-node-express-mongodb-mern-stack/)
-
-Fullstack with Spring Boot:
-> [React.js + Spring Boot + MySQL](https://bezkoder.com/react-spring-boot-crud/)
-
-> [React.js + Spring Boot + MongoDB](https://bezkoder.com/react-spring-boot-mongodb/)
-
-Fullstack with Django:
-> [React.js + Django Rest Framework](https://bezkoder.com/django-react-axios-rest-framework/)
-
-Serverless:
-> [React Firebase CRUD App with Realtime Database](https://bezkoder.com/react-firebase-crud/)
-
-> [React Firestore CRUD App example | Firebase Cloud Firestore](https://bezkoder.com/react-firestore-crud/)
-
-## Project setup
-```
-npm install
-```
-
-### Run
-```
-node server.js
-```
+Good luck!
