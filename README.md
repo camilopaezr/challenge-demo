@@ -1,6 +1,7 @@
 Use the following commands for running
 
 npm i
+
 npm start
 
 node:12.*
