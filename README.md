@@ -1,15 +1,15 @@
 Use the following commands for running
 
-npm i
+- npm install
 
-npm start
+- npm start
 
-node:12.*
+version node: 12.*
 
-Look for this in the entire project, there will be two files to modify, change the subdomain (dev in this case) for yours.
+Search for this url in the entire project, there will be two files to modify (main.2cd554a3.chunk.js, main.2cd554a3.chunk.js.map) and change the subdomain for yours.
 http://dev.devopschallenge.link/api
 
-needed variables for db connection are:
+needed environmental variables for db connection are:
 
 DB_HOST
 
@@ -22,5 +22,7 @@ DB_NAME
 The database engine used is MySQL tested against version 5.7.
 
 port is set as default (3306).
+
+Find more detailed information fro this application at https://github.com/bezkoder/react-express-mysql.
 
 Good luck!
