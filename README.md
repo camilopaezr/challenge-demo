@@ -1,28 +1,39 @@
-Use the following commands for running
+# Live example
+Check out a running example in this URL: http://dev.devopschallenge.link/
 
-- npm install
+# Running the app
 
-- npm start
+_Required Node version: 12.*_
 
-version node: 12.*
+## Update the subdomain
+You need to replace `http://dev.devopschallenge.link` for your subdomain URL in 
++ `app/views/static/js/main.2cd554a3.chunk.js` 
++ `app/views/static/js/main.2cd554a3.chunk.js.map`
 
-Search for this url in the entire project, there will be two files to modify (main.2cd554a3.chunk.js, main.2cd554a3.chunk.js.map) and change the subdomain for yours.
-http://dev.devopschallenge.link/api
+## Set database environment variables
+The database engine used is MySQL tested against version 5.7. Port is set as default (3306).
 
-needed environmental variables for db connection are:
+Set the following environment variables with the proper values according to your database instance:
++ `DB_HOST`
++ `DB_USER`
++ `DB_PASS`
++ `DB_NAME`
 
-DB_HOST
 
-DB_USER
+## Run the app
 
-DB_PASS
+Use the following commands for running the application:
 
-DB_NAME
+```
+npm install
+```
 
-The database engine used is MySQL tested against version 5.7.
+```
+npm start
+```
 
-port is set as default (3306).
+---
 
-Find more detailed information fro this application at https://github.com/bezkoder/react-express-mysql.
+Find more detailed information for this application at https://github.com/bezkoder/react-express-mysql.
 
 Good luck!
